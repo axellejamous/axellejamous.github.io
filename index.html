@@ -1,0 +1,59 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Axelle Jamous</title>
+  <meta name="description" content="Acelle Jamous' website">
+  <meta name="author" content="Axelle Jamous">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+  <style>
+    #cvPdf {
+      height: 100vh;
+    }
+
+    .jumbotron {
+      padding-left: 10px;
+      padding-top: 25px;
+      padding-bottom: 25px;
+    }
+
+    .customUrl {
+      color: #ff4f00;
+      font-weight: bold;
+    }
+
+    .customUrl:hover {
+      color: #ff781f;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="jumbotron">
+    <h1 class="display-4">Hello!</h1>
+    <p class="lead">Welcome to my online resume.</p>
+    <hr class="my-4">
+    <p>
+      Below you can find a quick summary of everything you might want to know about me.
+      Want to know more? Don't hesitate to <a class="customUrl" href="mailto:axellejamous@hotmail.com">contact me</a>.
+    </p>
+  </div>
+
+  <object id="cvPdf" data="./assets/cv.pdf" type="application/pdf" width="100%" height="100%">
+    <p>It appears you don't have a PDF plugin for this browser.
+      No biggie... you can <a href="./assets/cv.pdf">click here to
+        download the PDF file.</a></p>
+  </object>
+</body>
+
+</html>
